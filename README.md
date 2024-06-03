@@ -5,7 +5,7 @@
 ## home page
 🍨This project is a web application that allows users to select and order various types of ice cream. The application is built using modern web development technologies, specifically React and Bootstrap for styling and user interface enhancements.
 
-## 💥Features:
+## 💥features:
 
 🗂Ice Cream Selection: Users can choose from a variety of ice cream flavors.
 🗂Cart Management: Users can add and remove items from the cart.
@@ -14,11 +14,14 @@
 🗂Total Price Display: Users can see the total price of the added items.
 Sauce Selection: Users can choose from different types of sauces. 
 
-## ⚒️Technologies Used:
+## ⚒️technologies used:
 
 📌React: Used for building the user interface.
+
 📌Axios: Used for API calls and data fetching.
+
 📌Testing Library: Used for user interface testing.
+
 📌Jest: Used for unit and other types of testing.
 
 
