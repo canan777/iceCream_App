@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+      'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+      'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: black !important;
+    color: white !important;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+  .terms-box {
+    position: relative;
+    white-space: nowrap;
+  }
+  
+  .terms-box p {
+    position: absolute;
+    background: white;
+    padding: 5px 10px;
+    color: black;
+    border-radius: 10px;
+    top: -50px;
+    left: -20px;
+  }
+  
+  .top-card {
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .top-card:has(input:checked) {
+    box-shadow: 0 0 15px white;
+    border: 1px solid white;
+  }
+  
+  .top-card input {
+    display: none;
+  }
